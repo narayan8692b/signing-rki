@@ -15,9 +15,11 @@
   ],
 
 // Environment variables
-  "vars": {
-    "ORIGIN_URL": "https://example.com"
-  },
+"vars": {
+  "EDGE_SIGNING_KEY": "my-test-secret-1234567890",
+  "ORIGIN_URL": "https://180.179.124.161:443",
+  "ORIGIN_HOST": "rki.mosambee.com"
+}
 
   // KV namespace bindings
 
